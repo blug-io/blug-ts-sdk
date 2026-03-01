@@ -1,0 +1,21 @@
+{
+  "name": "@blug-io/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for Blug API key-protected endpoints",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "test": "bun test",
+    "biome:ci": "biome ci ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "typescript": "^5.8.2",
+    "@types/bun": "^1.2.12"
+  }
+}
