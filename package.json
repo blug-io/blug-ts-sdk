@@ -1,6 +1,6 @@
 {
   "name": "@blug-io/sdk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TypeScript SDK for Blug API key-protected endpoints",
   "type": "module",
   "main": "./src/index.ts",
