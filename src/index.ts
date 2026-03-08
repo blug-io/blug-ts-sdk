@@ -11,4 +11,4 @@ export {
   type RequestOptions,
   type Tag,
   type UUID,
-} from "./client";
+} from "./client.js";
