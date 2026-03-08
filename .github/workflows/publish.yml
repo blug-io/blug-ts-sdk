@@ -67,7 +67,10 @@ jobs:
           bun run biome:ci
           bun run test
 
+      - name: Build package
+        run: bun run build
+
       - name: Publish package
-        run: npm publish --access public
+        run: bun publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
